@@ -1,0 +1,64 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Your_power-your_direction-your_success",
+    "motivations": "it motivates me to take responsibility for my own life and my own success. It reminds us that our personal power and determination are the decisive factors in achieving our goals. The message is that we have the ability to choose our own paths and shape our destiny by utilising our inner strength and making clear choices. It is a call to personal responsibility and belief in one's own ability to achieve success.",
+    "objectives": "With the saying ‘Your power, your direction, your success’, we believe that every person has control over their own strength and energy, can determine the direction of their own life and therefore also shape their own success. It is a statement of self-determination, personal responsibility and trust that personal commitment and decisions pave the way to success.",
+    "paymentAddress": "addr1q9jn060ycwnqmfhqpcc47j5xeetway5z4eyx8fl890zkm6hfakmt4ujn8qpmrmwnck57vvz2yw0txffrp6uape9r6lrq0at9ty",
+    "qualifications": "To qualify for the role of a Data-Driven Research and Evaluation Professional (DREP), I bring a strong set of qualifications. I am proficient in data analysis, with expertise in statistical methods and relevant tools. My hands-on experience includes conducting and managing research and evaluations, and I am familiar with various evaluation methodologies. I possess technical skills in software and programming languages essential for data work. My analytical thinking allows me to interpret complex data patterns effectively. I can clearly present findings to diverse audiences and have experience in managing research projects, including budgeting and scheduling. Additionally, I have specialized domain knowledge, am committed to ongoing learning, and adhere to high ethical standards in all aspects of my work.",
+    "references": []
+  }
+}
